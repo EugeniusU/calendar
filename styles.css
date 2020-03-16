@@ -1,0 +1,35 @@
+
+table {
+	border-collapse: collapse;
+	margin: 30px;
+	table-layout: auto;
+	width: 70%;
+	background-color: #a4de93; 
+}
+
+td, th {
+	border: 1px solid black;
+	padding: 3px 8px;
+	text-align: center;
+}
+
+@keyframes color-change {
+	0% {
+		background-color:  #f7fff4;
+	}
+	50% {
+		background-color: #dcffd2;
+	}
+	100% {
+		background-color:  #9aff7c;
+	}
+}
+
+html {
+	animation: color-change 3s infinite;
+}
+
+h1 {
+	text-align: center;
+	color: green;
+}
